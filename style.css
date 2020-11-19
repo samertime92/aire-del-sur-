@@ -1,0 +1,662 @@
+body{margin:0px;padding:0px;height:1000%}
+#container1{position: absolute;background: linear-gradient(#28abb9,#28abb9,#28abb9,#28abb9,#28abb9,#28abb9);;height:400%;width:100%;margin:0px;padding:0px;}
+#logo {
+    position: absolute;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    top: 6%;
+    left: 47px;
+}
+#container2{position: absolute;background: linear-gradient(#28abb9,#28abb9,#28abb9,#28abb9,#28abb9,#28abb9);;height:1100%;width:100%;margin:0px;padding:0px;}
+#container3{position: absolute;background: linear-gradient(#28abb9,#28abb9,#28abb9,#28abb9,#28abb9,#28abb9);;height:400%;width:100%;margin:0px;padding:0px;}
+
+hr{transition: 1s;position: relative;background:linear-gradient(30deg,none,white);height:0.2%;float: left;}
+#press1{;border-top:none;border-left: none;text-shadow: 0px 0px 2px none;position: relative;color:black;background-color :none;font-size: 22px;border-width:1.5px;border-style:groove;;display: inline-block;border-color: red;margin:0px;padding: 0px;border-radius: 4%;padding-left: 10px;padding-right: 10px;float:left;}
+#press2{;border-top:none;border-left: none;transition: 1s;text-shadow: 0px 1px 2px none;position: relative;color:black;background-color :none;font-size: 22px;border-width: 1.5px;border-style:groove;;display: inline-block;border-color: red;margin:0px;padding: 0px;border-radius: 4%;padding-left: 10px;padding-right: 10px;float:left;}
+#hr2{ transition: 1s;border-style: none;transition: 1s;position: relative;background:linear-gradient(30deg,red,red,#28abb9,#28abb9);height:0.2%;float:none;}
+#press1:hover{border-width:5px;border-top:none;border-left: none;text-shadow: 1px -2px 1px black;transition: 0.5s;padding-left: 100px;color:#28abb9;border-color: red;font-size: 24px;letter-spacing: 5px;padding-right: 80px;margin: 0px;}
+#press2:hover{border-width:5px;border-top:none;border-left: none;text-shadow: 1px -2px 1px black;transition: 0.5s;padding-left: 100px;color:#28abb9;border-color: red;font-size: 24px;letter-spacing: 5px;padding-right: 80px;margin: 0px;}
+#wall{transform: rotate(90deg);transition: 1s;background:linear-gradient(90deg,#28abb9,red,#28abb9);position:absolute;width:0%;display:inline-block;;height:100%;top:10%;border-radius: 1%;border-color: gold;border-style: double;border-width: 0px;}
+#texts{display:inline-block;color:white;font-size: 30PX;text-shadow: 0px 2px 2px red;font-family:monospace;z-index: 2}
+#icons{position:absolute;width:80%;top:17%;display: none;left:7%}
+#icons2{position:absolute;width:80%;top:17%;display: none;left:7%}
+#wall2{transform: rotate(90deg);transition: 1s;background:linear-gradient(90deg,#28abb9,red,#28abb9);position:absolute;width:0%;display:inline-block;;height:100%;top:10%;border-radius: 1%;border-color: gold;border-style: double;border-width: 0px;}
+
+.mail1{margin-left: 25px;position:relative;;width:22%;float:left;display: inline-block;}
+#whats{margin-left: 35px;position:relative;;width:22%;float:left;display: inline-block;}
+
+#icons{
+  transition: width 0.5s, height 1s, transform 1s;
+  animation-name: icons;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay:0s;
+  opacity:1;
+}
+@keyframes icons {
+  0% {
+     opacity: 0;
+     transform: translate3d(200%,0,0);
+   }
+   100%{transform: none;opacity: 1}}
+#oven {
+    position: absolute;
+    width: 63%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    top: 15%;
+    left: 61px;
+}
+
+#oven {
+    position: absolute;
+    width: 63%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block
+    top: 15%;
+    left: 61px;
+}
+#washer {
+    position: absolute;
+    width: 63%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    top: 15%;
+    left: 61px;
+}
+#smallwasher {
+    position: absolute;
+    width: 47%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    top: 15%;
+    left: 96px;
+}
+
+ #press1{
+   transition: width 0.5s, height 1s, transform 1s;
+   animation-name: press01,press1;
+   animation-duration: 1s,10s;
+   animation-fill-mode:forwards;
+   animation-iteration-count:1, infinite;
+   animation-timing-function: ease-in;
+   animation-delay:0s,1s;
+   opacity:1;
+ }
+ @keyframes press01 {
+   0%{opacity:0.2;font-size: 6px;}
+  100% {opacity:1;
+   font-size: 22px);
+  }}
+ #press2{
+   transition: width 0.5s, height 1s, transform 1s;
+   animation-name: press02,press2;
+   animation-duration: 1s,10s;
+   animation-fill-mode:forwards;
+   animation-iteration-count:1, infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay:0s,1s;
+   opacity:1;
+ }
+ @keyframes press02 {
+   0%{opacity:0.2;font-size: 6px;}
+  100% {opacity:1;
+   font-size: 22px);
+  }}
+
+#logo{
+  transition: width 0.5s, height 1s, transform 1s;
+  animation-name: logo,logo2;
+  animation-duration: 1.5s,2s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1,1;
+  animation-timing-function: ease-in-out;
+  animation-delay:1s,5s;
+  opacity:0;
+}
+
+@keyframes logo {
+  0%{opacity:0;width:0%;}
+ 100% {
+   opacity:1;width:70%;transform: rotate(720deg);
+ }}
+ @keyframes logo2 {
+   0%,100%{width:70%;transform: rotate(0deg);}
+  50% {
+    transform: rotate(3600deg);
+  }}
+
+  #oven{
+    transition: width 0.5s, height 1s, transform 1s;
+    animation-name: oven,oven2,oven3;
+    animation-duration: 7s,6.5s,1.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1,1,1;
+    animation-timing-function: ease-in-out;
+    animation-delay:1s,12.5s,24s;
+    opacity:0;
+  }
+  @keyframes oven {
+    0% {
+       opacity: 0;
+       transform: translate3d(100%,0,0);
+     }
+     30% {
+       opacity: 1;
+       transform: none;
+     }
+
+   60%{opacity: 1;transform: none}
+  70% {
+       opacity: 0.1;
+         transform: translate3d(-200%,0,0);
+
+     }
+
+100%{
+  transform: translate3d(-200%,0,0);
+
+     opacity: 0;
+ }
+     }
+     @keyframes oven2 {
+       0% {
+          opacity: 0;
+          transform: translate3d(100%,0,0);
+        }
+        30% {
+          opacity: 1;
+          transform: none;
+        }
+
+      60%{opacity: 1;transform: none}
+     70% {
+          opacity: 0.1;
+            transform: translate3d(-200%,0,0);
+
+        }
+
+   100%{
+     transform: translate3d(-200%,0,0);
+
+        opacity: 0;
+    }
+        }
+        @keyframes oven3 {
+          0% {
+             opacity: 0;
+             transform: translate3d(100%,0,0);
+           }
+           100% {
+             opacity: 1;
+             transform: none;
+           }
+
+         }
+     #washer{
+       transition: width 0.5s, height 1s, transform 1s;
+       animation-name: washer,washer2;
+       animation-duration: 7s,6.4s;;
+       animation-fill-mode:forwards;
+       animation-iteration-count: 1,1,;
+       animation-timing-function: ease-in-out;
+       animation-delay:4.6s,16s;
+       opacity:0;
+     }
+     @keyframes washer {
+       0% {
+          opacity: 0;
+          transform: translate3d(100%,0,0);
+        }
+        30% {
+          opacity: 1;
+          transform: none;
+        }
+
+      60%{opacity: 1;transform: none}
+     70% {
+          opacity: 0.1;
+            transform: translate3d(-200%,0,0);
+
+        }
+
+   100%{
+     transform: translate3d(-200%,0,0);
+
+        opacity: 0;
+    }
+        }
+        @keyframes washer2 {
+          0% {
+             opacity: 0;
+             transform: translate3d(100%,0,0);
+           }
+           30% {
+             opacity: 1;
+             transform: none;
+           }
+
+         60%{opacity: 1;transform: none}
+        70% {
+             opacity: 0.1;
+               transform: translate3d(-200%,0,0);
+
+           }
+
+      100%{
+        transform: translate3d(-200%,0,0);
+
+           opacity: 0;
+       }
+           }
+
+        #smallwasher{
+          transition: width 0.5s, height 1s, transform 1s;
+          animation-name: smallwasher,smallwasher2;
+          animation-duration: 7s,7s;
+          animation-fill-mode:forwards;
+          animation-iteration-count: 1,1;
+          animation-timing-function: ease-in-out;
+          animation-delay:8.5s,19.5s;
+          opacity:0;
+        }
+        @keyframes smallwasher {
+          0% {
+             opacity: 0;
+             transform: translate3d(100%,0,0);
+           }
+           30% {
+             opacity: 1;
+             transform: none;
+           }
+
+         60%{opacity: 1;transform: none}
+        70% {
+             opacity: 0.1;
+               transform: translate3d(-200%,0,0);
+
+           }
+
+      100%{
+        transform: translate3d(-200%,0,0);
+
+           opacity: 0;
+       }
+           }
+           @keyframes smallwasher2 {
+             0% {
+                opacity: 0;
+                transform: translate3d(100%,0,0);
+              }
+              30% {
+                opacity: 1;
+                transform: none;
+              }
+
+            60%{opacity: 1;transform: none}
+           70% {
+                opacity: 0.1;
+                  transform: translate3d(-200%,0,0);
+
+              }
+
+         100%{
+           transform: translate3d(-200%,0,0);
+
+              opacity: 0;
+          }
+              }
+
+              #hugewasher {
+                  position: absolute;
+                  width: 80%;
+                  margin: 0px;
+                  padding: 0px;
+                  display: inline-block;
+                  top: 26%;
+                  left: 40px;
+              }
+              #aire {
+                  position: absolute;
+                  width: 90%;
+                  margin: 0px;
+                  padding: 0px;
+                  display: inline-block;
+                  top: 26%;
+                  left: 10px;
+              }
+              #freezer {
+                  position: absolute;
+                  width: 73%;
+                  margin: 0px;
+                  padding: 0px;
+                  display: inline-block;
+                  top: 24%;
+                  left: 41px;
+              }
+              #hugewasher{
+                transition: width 0.5s, height 1s, transform 1s;
+                animation-name: hugewasher,hugewasher2,hugewasher3;
+                animation-duration: 7s,6.5s,1.5s;
+                animation-fill-mode:forwards;
+                animation-iteration-count: 1,1,1;
+                animation-timing-function: ease-in-out;
+                animation-delay:1s,12.5s,24s;
+                opacity:0;
+              }
+              @keyframes hugewasher {
+                0% {
+                   opacity: 0;
+                   transform: translate3d(100%,0,0);
+                 }
+                 30% {
+                   opacity: 1;
+                   transform: none;
+                 }
+
+               60%{opacity: 1;transform: none}
+              70% {
+                   opacity: 0.1;
+                     transform: translate3d(-200%,0,0);
+
+                 }
+
+            100%{
+              transform: translate3d(-200%,0,0);
+
+                 opacity: 0;
+             }
+                 }
+                 @keyframes hugewasher2 {
+                   0% {
+                      opacity: 0;
+                      transform: translate3d(100%,0,0);
+                    }
+                    30% {
+                      opacity: 1;
+                      transform: none;
+                    }
+
+                  60%{opacity: 1;transform: none}
+                 70% {
+                      opacity: 0.1;
+                        transform: translate3d(-200%,0,0);
+
+                    }
+
+               100%{
+                 transform: translate3d(-200%,0,0);
+
+                    opacity: 0;
+                }
+                    }
+                    @keyframes hugewasher3 {
+                      0% {
+                         opacity: 0;
+                         transform: translate3d(100%,0,0);
+                       }
+                       100% {
+                         opacity: 1;
+                         transform: none;
+                       }
+
+                     }
+                  #aire{
+                   transition: width 0.5s, height 1s, transform 1s;
+                   animation-name: aire,aire2;
+                   animation-duration: 7s,6.4s;
+                   animation-fill-mode:forwards;
+                   animation-iteration-count: 1,1,;
+                   animation-timing-function: ease-in-out;
+                   animation-delay:4.6s,16s;
+                   opacity:0;
+                 }
+                 @keyframes aire {
+                   0% {
+                      opacity: 0;
+                      transform: translate3d(100%,0,0);
+                    }
+                    30% {
+                      opacity: 1;
+                      transform: none;
+                    }
+
+                  60%{opacity: 1;transform: none}
+                 70% {
+                      opacity: 0.1;
+                        transform: translate3d(-200%,0,0);
+
+                    }
+
+               100%{
+                 transform: translate3d(-200%,0,0);
+
+                    opacity: 0;
+                }
+                    }
+                    @keyframes aire2 {
+                      0% {
+                         opacity: 0;
+                         transform: translate3d(100%,0,0);
+                       }
+                       30% {
+                         opacity: 1;
+                         transform: none;
+                       }
+
+                     60%{opacity: 1;transform: none}
+                    70% {
+                         opacity: 0.1;
+                           transform: translate3d(-200%,0,0);
+
+                       }
+
+                  100%{
+                    transform: translate3d(-200%,0,0);
+
+                       opacity: 0;
+                   }
+                       }
+
+                    #freezer{
+                      transition: width 0.5s, height 1s, transform 1s;
+                      animation-name: freezer,freezer2;
+                      animation-duration: 7s,7s;
+                      animation-fill-mode:forwards;
+                      animation-iteration-count: 1,1;
+                      animation-timing-function: ease-in-out;
+                      animation-delay:8.5s,19.5s;
+                      opacity:0;
+                    }
+                    @keyframes freezer {
+                      0% {
+                         opacity: 0;
+                         transform: translate3d(100%,0,0);
+                       }
+                       30% {
+                         opacity: 1;
+                         transform: none;
+                       }
+
+                     60%{opacity: 1;transform: none}
+                    70% {
+                         opacity: 0.1;
+                           transform: translate3d(-200%,0,0);
+
+                       }
+
+                  100%{
+                    transform: translate3d(-200%,0,0);
+
+                       opacity: 0;
+                   }
+                       }
+                       @keyframes freezer2 {
+                         0% {
+                            opacity: 0;
+                            transform: translate3d(100%,0,0);
+                          }
+                          30% {
+                            opacity: 1;
+                            transform: none;
+                          }
+
+                        60%{opacity: 1;transform: none}
+                       70% {
+                            opacity: 0.1;
+                              transform: translate3d(-200%,0,0);
+
+                          }
+
+                     100%{
+                       transform: translate3d(-200%,0,0);
+
+                          opacity: 0;
+                      }
+                          }
+                          .red1{
+                            transition: width 0.5s, height 1s, transform 1s;
+                            animation-name:red1, green1,gold1;
+                            animation-duration: 1s,1s,1s;
+                            animation-fill-mode:forwards;
+                            animation-iteration-count: infinite,infinite;
+                            animation-timing-function: ease-in-out;
+                            animation-delay:2s,4s,8s;
+                            opacity:1;
+                          }
+                          @keyframes red1 {
+                            0%,100%{color:none;
+                          }
+                          50%{color:red}
+                          }
+                          @keyframes green1 {
+                          0%,100%{color:none;
+                          }
+                          50%{color:red}
+
+                          }
+                          @keyframes gold1 {
+                          0%,100%{color:black;
+                          }
+                          50%{color:red}
+                          }
+                          .fla{
+                            transition: width 0.5s, height 1s, transform 1s;
+                            animation-name:fla;
+                            animation-duration: 0.5s;
+                            animation-fill-mode:forwards;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                            animation-delay:2.5s;
+                            opacity:1;
+                          }
+                          @keyframes fla {
+                            0%,100%{opacity: 0;
+                          }
+                          50%{opacity: 1}
+                          }
+                          .flash{
+                            transition: width 0.5s, height 1s, transform 1s;
+                            animation-name:flash1, flash2,flash3;
+                            animation-duration: 1s,1s,5s;
+                            animation-fill-mode:forwards;
+                            animation-iteration-count: infinite,infinite,infinite;
+                            animation-timing-function: ease-in-out;
+                            animation-delay:3s,7s,9s;
+                            opacity:1;
+                          }
+                          @keyframes flash1 {
+                            0%,100%{color:black;
+                          }
+                          50%{color:red}
+                          }
+                          @keyframes flash2 {
+                          0%,100%{color:black;
+                          }
+                          50%{color:red}
+
+                          }
+                          @keyframes flash3 {
+                          0%,100%{color:none;
+                          }
+                          50%{color:black}
+                          }
+                          .green{
+                            transition: width 0.5s, height 1s, transform 1s;
+                            animation-name:green0,green00 ;
+                            animation-duration: 1s,1s;
+                            animation-fill-mode:forwards;
+                            animation-iteration-count: infinite,infinite;
+                            animation-timing-function: ease-in-out;
+                            animation-delay:3s,6s;
+                            opacity:1;
+                          }
+                          @keyframes green0 {
+                            0%,100%{color:black;
+                          }
+                          50%{color:red}
+                          }
+                          @keyframes green00 {
+                          0%,100%{color:black;
+                          }
+                          50%{color:red}
+
+                          }
+
+                          .red{
+                            transition: width 0.5s, height 1s, transform 1s;
+                            animation-name:red, green;
+                            animation-duration: 1s,1s;
+                            animation-fill-mode:forwards;
+                            animation-iteration-count: infinite,infinite;
+                            animation-timing-function: ease-in-out;
+                            animation-delay:4s,8s;
+                            opacity:1;
+                          }
+                          @keyframes red {
+                            0%,100%{color:black;
+                          }
+                          50%{color:red}
+                        }
+                        @keyframes green {
+                          0%,100%{color:black;
+                        }
+                        50%{color:red}
+
+                      }
+
+                    h1{
+                      transition: width 0.5s, height 1s, transform 1s;
+                      animation-name:h1;
+                      animation-duration: 1s;
+                      animation-fill-mode:forwards;
+                      animation-iteration-count: infinite;
+                      animation-timing-function: ease-in-out;
+                      animation-delay:1s;
+                      opacity:1;
+                    }
+                    @keyframes h1{
+                      0%,100%{text-decoration:none
+                    }
+                    50%{ text-decoration: none}
+                  }
+
+#fog{position: absolute;width:125%;transform: rotate(1deg);height:100%;z-index: 0}
+  #hostaleria{position: relative;top:30%}
+  #ventilacion{position: relative;top:30%}
+  #climatizacion{position: relative;top:30%}
+
+.bigh1{text-align: center;color:#28abb9;text-shadow: 1px 1px 4px black;font-size: 60px;color: white;text-align:center}
+.img1{position: relative;width: 100%}
+.img2{position: relative;width: 100%;height:10%}
+
+  h1{text-align: center;color:#28abb9;text-shadow: 1px 1px 4px black;}
+  p{display:block; font-size: 20px;color:black;font-family: serif;}
