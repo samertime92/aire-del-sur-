@@ -9,29 +9,23 @@
   </head>
   <body>
     <div id="container3">
-      <form action="airedelsur2000@hotmail.com" method="post" enctype="text/plain">
-  Name:<br>
-  <input type="text" name="name"><br>
-  E-mail:<br>
-  <input type="text" name="mail" value="airedelsur2000@hotmail.com"> <br>
-  Comment:<br>
-  <input type="text" name="comment" size="50"><br><br>
-  <input type="submit" value="Send">
-  <input type="reset" value="Reset">
-  </form>
-
-  <br><br>
-  <textarea id="myText">
-    Lorem ipsum...fuck
+      <hr>
+      <br><br><br>
+      <h4 id="press2" onclick="sendMail(); return false">MANDAR</h4>
+      <hr id="hr2"><br><br><br>
+  <textarea id="mytext">
+    TU MENSAJE AQUI  PORFAVOR
 </textarea>
-<button onclick="sendMail(); return false">Send</button>
+
+
+
+</div>
 <script type="text/javascript">
   function sendMail() {
-    var link = "mailto:samerel.91@gmail.com"
+    var link = "mailto:airedelsur2000@hotmail.com"
              + "?cc=myCCaddress@example.com"
-             + "&subject=" + encodeURIComponent("This is my subject")
-             + "&body=" + encodeURIComponent(document.getElementById('myText').value)
-    ;
+             + "&subject=" + encodeURIComponent("AIRE DEL SUR")
+             + "&body=" + encodeURIComponent(document.getElementById('myText').value);
 
     window.location.href = link;
 }
